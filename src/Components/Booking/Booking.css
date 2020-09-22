@@ -14,9 +14,20 @@
   }
   .calender{
     background-color: white;
+    border-radius: 15px;
     float: right;
-    width: 30%;
-    height: 70%;
+    width: 28%;
+    height: 42%;
     margin-right: 50px;
     margin-top: 20px;
+    padding: 10px;
   }
+  .btn{
+    background-color: orange;
+    border-radius: 15px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin-left: 20px;  }

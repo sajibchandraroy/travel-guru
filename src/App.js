@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import Booking from './Components/Booking/Booking';
 import Home from './Components/Home/Home';
+import HotelRoom from './Components/HotelRoom/HotelRoom';
+
 
 
 const App = () => {
@@ -18,9 +20,10 @@ const App = () => {
                 <Route path="/home"><Home /></Route>
                 <Route path="/booking/:locationName"><Booking/></Route>
                 {/* <Route path="/signin"><SignIn/></Route> */}
-                {/* <PrivateRoute path="/hotelroom/:locationName">
-                <HotelRoom /> */}
-                {/* </PrivateRoute> */}
+                <Route path="/hotelRoom/:locationName">
+                <HotelRoom /></Route>
+                
+               
                 
                 <Route exact path="/"><Home /></Route>
       </Switch>
